@@ -34,20 +34,21 @@ header{
     align-items: center;
     padding: 10px;
 }
-.logo { display: flex ;
-align-items: center;
-color: #dbdbdb;}
-
 .logo img{height: 50px ; 
-          margin-right: 10px }
-
+              margin-right: 10px }
+    
 a{text-decoration: none;
-color: #000000}
-nav a {
-    font-weight: 600;
-    padding: 10px
+    color: #000000}
+nav a { font-weight: 600;
+        padding: 10px}
+
+.container-fluid { background-color: #288863 ;
 }
-nav a :hover{ color: rgb(255, 255, 255)}
+.collapse{ padding-left: 550px ;
+           font-weight: 350px ; }
+li { margin-right: 20px;
+     font-size: medium;
+    font-style: oblique}
 
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');

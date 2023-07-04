@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <title>Document</title>
     <link rel="stylesheet" href="estilos.css">
      <!--Iconos-->
@@ -11,16 +12,31 @@
 </head>
 <body>
    <header>
-      <div class="logo">
-         <img src="./Imagenes/1.png" alt="logo">
-         <h2 class="Nombre-empresa">Marketing con Ger</h2>
-      </div>
-      <nav>
-         <a href="./index.html" class="nav-link">Inicio</a>
-         <a href="./conociendo.html" class="nav-link">Sobre nosotros</a>
-         <a href="./formulario.html" class="nav-link">Contacto</a>
-         <a href="./formacionyusuarios.html" class="nav-link">Formacion</a>
-         <a href="./servicios.html" class="nav-link">Servicios</a>
+      <nav class="navbar navbar-expand-lg ">
+         <div class="container-fluid">
+           <a class="navbar-brand" href="#">Marketing con Ger</a>
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse" id="navbarNav">
+               <ul class="navbar-nav">
+                  <li class="nav-item">
+                     <a class="nav-link" href="./index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="./formacionyusuarios.html">Formacion</a>
+                  <li class="nav-item">
+                     <a class="nav-link" href="./conociendo.html">Sobre Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="./formulario.html">Contacto</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="./servicios.html">Servicios</a>
+                  </li>
+               </ul>
+           </div>
+         </div>
       </nav>
    </header>
    <main>
@@ -68,4 +84,5 @@
       </div>
    </footer> 
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </html>
