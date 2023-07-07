@@ -5,9 +5,7 @@
     gap: 50px;
     justify-content: center;
     margin-top: 5px;
-    
   }
-
   .mark1 {
     width: 300px;
     transform: scaleX(-1);
@@ -26,14 +24,14 @@
   
 
 /*:::::header*/
-header{
-    display: flex;
-    height: 70px;
-    justify-content: space-between;
-    background-color: #288863;
-    align-items: center;
-    padding: 10px;
-}
+nav {padding: 0;}
+
+.navbar-expand-lg {padding: 0;}
+
+.navbar-expand-lg .navbar-collapse {
+    padding: 0;
+    justify-content: end;
+  }
 .logo img{height: 50px ; 
               margin-right: 10px }
     
@@ -43,6 +41,8 @@ nav a { font-weight: 600;
         padding: 10px}
 
 .container-fluid { background-color: #288863 ;
+    gap: 200px;
+    padding: 20px 0;
 }
 .collapse{ padding-left: 550px ;
            font-weight: 350px ; }
@@ -117,14 +117,6 @@ li { margin-right: 20px;
 .pie-pagina .grupo-2 small{
     font-size: 15px;
 }
-@media screen and (max-width:800px){
-    .pie-pagina .grupo-1{
-        width: 90%;
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap:30px;
-        padding: 35px 0px;
-    }
-}
 
 
 /*:::::Formulario*/
@@ -136,15 +128,15 @@ li { margin-right: 20px;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
+
 .container-form{
-    width: 100%;
-    max-width: 1500px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-gap: 50px;
-    margin-top: 90px;
+    padding: 50px;
+    display: flex;
+    gap: 15px;
 }
+form {
+    display: flex;
+    flex-direction: column;}
 .container-form h2{
     margin-bottom: 15px;
     font-size: 35px
@@ -203,14 +195,7 @@ li { margin-right: 20px;
 
 .conociendo {text-align: center;}
 
-.titulo {
-    display: flex;
-    padding: 50px 0px;
-    gap: 50px;
-    justify-content: center;
-    margin-top: 5px;
-    
-  }
+
   .mark1 {
     width: 300px;
     transform: scaleX(-1);
@@ -250,12 +235,8 @@ li { margin-right: 20px;
                padding: 3%;}
 
     .engine1{width: 200px; 
-        margin-left: 350px; 
-        margin-right: 350px;
-        margin-bottom: 50px;
-        margin-top: 50px
             ;}
-
+            
    .servicios {display: flex;
             justify-content: center;
              margin: 0 50px;}
@@ -265,24 +246,26 @@ li { margin-right: 20px;
     
     .form {margin-top: 15px;
         margin-bottom: 50px;}
+
+    .form p{ padding: 5px;
+    font-size: 25px;}
     
     .formaciontext {text-align: center; margin-bottom: 25px;}
    
 
     .formacion {display: flex;
-        padding-top: 5%;
+        gap: 30px;
         }
+    
+    .clasesimg {padding: 50px;}
 
     .clases { width: 400px; 
-                margin-left: 50px; 
-                margin-right: 50px;
-                margin-bottom: 50px;
                border-radius: 5%;}
 
     .clasestext {display: flex;
-        padding: 110px 0px;
+        padding: 80px 50px;
         justify-content: center;
-        margin-top: 5px;}
+    font-size: 25px;}
            
 
 .users {display: flex;
@@ -300,5 +283,65 @@ justify-content: center;
 margin-top: 5px;}
 
 .opinion {text-align: center;}
+
+/* Medidas mobile */
+
+@media screen and (max-width: 769px) {
+    nav .container-fluid {
+        display: block !important; 
+        padding: 0;
+
+      }
+      nav .navbar-collapse {
+        padding: 0;
+      }
+    .pie-pagina .grupo-1 {
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 30px;
+      padding: 35px 10px;
+    }
+    .pie-pagina .grupo-1 .box {
+        margin: 0;
+        display: flex; 
+       flex-direction: column;
+       gap: 10px;
+
+    }
+    .pie-pagina .grupo-1 .box p {
+        font-size: 10px;
+    }
+
+    .titulo {
+      flex-direction: column;
+      padding: 50px 0px;
+      align-items: center;
+      margin-top: 5px;
+    }
+    .titulo .imagen {
+        align-self: center;
+    }
+    .form{ padding: 0px 10px;}
     
-  
+    .formacion { flex-direction: column; 
+        padding: 0px 10px; 
+        gap: 20px;}
+    .formacion .clasesimg {
+        display:flex;
+        align-self: center;
+    }
+    .formacion img{margin: 0;
+        width: 250px;}
+    .formacion .clasestext{ padding: 0;}
+
+    .container-form{flex-direction: column;}
+    
+    .container-form form textarea {
+            max-width: 100%;
+            min-width: auto;
+          }
+    .servicios .engine1 {
+        display: flex;
+        flex-direction: column;
+        align-self: end; 
+    }
+  }
