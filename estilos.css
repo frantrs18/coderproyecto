@@ -357,13 +357,13 @@ margin-top: 5px;}
     .textoservicio p {padding: 5px;
         font-size: 20px;}
     
-    .engine1{width: 200px;
+    .engine1{width: 150px;
             display: flex;
-            padding: 50px
+            padding: 20px
                 ;}
-    .engine2{width: 200px;
+    .engine2{width: 150px;
             display: flex ;
-            padding: 50px;}
+            padding: 20px;}
     
     .reunion { flex-direction: column; 
         padding: 15px 15px; 
