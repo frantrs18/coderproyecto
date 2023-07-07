@@ -230,13 +230,22 @@ form {
 
     .mark3 {width: 300px;
             justify-content: center;}
+    
+    .textoservicio p {padding: 5px;
+                font-size: 25px;}
 
-     .servicios3{text-align: center;
-               padding: 3%;}
+    .servicios3{text-align: center;
+               padding: 5px;
+               font-size: 20px;}
 
-    .engine1{width: 200px; 
+    .engine1{width: 400px;
+        display: flex;
+        padding: 50px
             ;}
-            
+    .engine2{width: 400px;
+        display: flex ;
+        padding: 50px;}
+
    .servicios {display: flex;
             justify-content: center;
              margin: 0 50px;}
@@ -325,6 +334,7 @@ margin-top: 5px;}
     .formacion { flex-direction: column; 
         padding: 0px 10px; 
         gap: 20px;}
+    
     .formacion .clasesimg {
         display:flex;
         align-self: center;
@@ -344,4 +354,21 @@ margin-top: 5px;}
         flex-direction: column;
         align-self: end; 
     }
+    .textoservicio p {padding: 5px;
+        font-size: 20px;}
+    
+    .engine1{width: 200px;
+            display: flex;
+            padding: 50px
+                ;}
+    .engine2{width: 200px;
+            display: flex ;
+            padding: 50px;}
+    
+    .reunion { flex-direction: column; 
+        padding: 15px 15px; 
+        gap: 10px;}
+        
+    .reunion .reunion-general {margin: 0;
+        width: 350px;}
   }
