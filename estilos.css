@@ -371,4 +371,10 @@ margin-top: 5px;}
         
     .reunion .reunion-general {margin: 0;
         width: 350px;}
+    .reunion .reuniontext  {padding: 5px;
+            font-size: 20px;}
+    .more {padding: 5px;
+        font-size: 20px;}
+    .texto {padding: 5px;
+        font-size: 20px;}
   }
