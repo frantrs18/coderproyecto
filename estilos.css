@@ -6,6 +6,10 @@
     justify-content: center;
     margin-top: 5px;
   }
+  .texto-index {font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;}
   .mark1 {
     width: 300px;
     transform: scaleX(-1);
@@ -195,7 +199,6 @@ form {
 
 .conociendo {text-align: center;}
 
-
   .mark1 {
     width: 300px;
     transform: scaleX(-1);
@@ -206,6 +209,11 @@ form {
     flex-direction: column;
     gap: 15px;
   }
+  .texto-conociendo {font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;}
+  
   .titulo .imagen {
     display: flex;
     flex-direction: column;
