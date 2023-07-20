@@ -1,3 +1,7 @@
+// variable //
+
+
+
 /*:::::index-body*/
 .titulo {
     display: flex;
@@ -45,7 +49,8 @@ a{text-decoration: none;
 nav a { font-weight: 600;
         padding: 10px}
 
-.container-fluid { background-color: #288863 ;
+.container-fluid { background: rgb(220,230,0);
+    background: linear-gradient(90deg, rgba(220,230,0,1) 0%, rgba(11,194,123,1) 35%, rgba(40,136,99,1) 100%);
     gap: 200px;
     padding: 20px 0;
 }
@@ -68,7 +73,8 @@ li { margin-right: 20px;
 /*:::::Pie de Pagina*/
 .pie-pagina{
     width: 100%;
-    background-color: #288863;
+    background: rgb(40,136,99);
+    background: linear-gradient(90deg, rgba(40,136,99,1) 0%, rgba(11,194,123,1) 35%, rgba(220,230,0,1) 100%);
 }
 .pie-pagina .grupo-1{
     width: 100%;
