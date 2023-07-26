@@ -306,8 +306,6 @@ form {
   width: 400px;
   display: flex;
   padding: 50px;
-  transform: rotateY(360deg);
-  
 }
 
 .engine2 {
@@ -382,27 +380,6 @@ form {
 .opinion {
   text-align: center;
 }
-
-/* error404 */
-
-.mark4   {width: 300px;
-justify-content: center;}
-.titulonumero { text-align: center;
-  padding: 5px;
-  font-size: 30px;}
-.textoerror { padding: 5px;
-  font-size: 25px;}
-.error {  text-align: center;
-  padding: 5px;
-  font-size: 30px;}
-.error h1 {font-size: 50px;
-  padding: 5px}
-.error .textoerror {  padding: 5px;
-  font-size: 50px;}
-
-.personaerror .titulonumero {  display: flex;
-  justify-content: center;
-  margin: 0 50px;}
 
 /* Medidas mobile */
 @media screen and (max-width: 769px) {
@@ -502,6 +479,4 @@ justify-content: center;}
     padding: 5px;
     font-size: 20px;
   }
-}
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
