@@ -34,7 +34,7 @@ a {color:black}
 
 //error404//
 
-.mark4 {width: 300px;
+.mark4 {width: $widthLG;
     justify-content: center;}
 .textoerror {padding: 5px;
     font-size: 25px;
@@ -42,7 +42,7 @@ a {color:black}
     font-weight: $textBold;}
 .error {text-align: center;
     padding: 5px;
-    font-size: 20px;
+    font-size: $textMD;
     font-family: $fuentenormal;
     font-weight: $textBold;
 }
