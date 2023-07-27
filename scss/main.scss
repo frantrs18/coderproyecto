@@ -1,8 +1,3 @@
-//partials//
-
-
-
-
 /*:::::index-body*/
 .titulo {
     display: flex;
@@ -10,22 +5,24 @@
     gap: 50px;
     justify-content: center;
     margin-top: 5px;
-    
   }
-  .texto-index {font-size: 22px;
+  
+  .texto-index {
+    font-size: 22px;
     display: flex;
     flex-direction: column;
-    gap: 15px;}
-  .mark1 {
-    width: 300px;
-    transform: scaleX(-1);
+    gap: 15px;
   }
+  
+
+  
   .titulo .texto {
     width: 300px;
     display: flex;
     flex-direction: column;
     gap: 15px;
   }
+  
   .titulo .imagen {
     display: flex;
     flex-direction: column;
@@ -97,7 +94,7 @@ li { margin-right: 20px;
     width: 250px;
 }
 .pie-pagina .grupo-1 .box h2{
-    color: #fff;
+    color: #ffff;
     margin-bottom: 25px;
     font-size: 20px;
 }
