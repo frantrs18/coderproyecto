@@ -1,11 +1,21 @@
-/*:::::index-body*/
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"); /*:::::index-body*/
 .titulo {
   display: flex;
   padding: 50px 0px;
   gap: 50px;
   justify-content: center;
   margin-top: 5px;
+}
+.titulo .imagen {
+  display: flex;
+  flex-direction: column;
+  align-self: end;
+}
+.titulo .texto {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .texto-index {
@@ -15,28 +25,266 @@
   gap: 15px;
 }
 
+h1 {
+  font-family: Helvetica;
+  font-weight: 500;
+  color: #000000;
+}
+
+a {
+  color: black;
+}
+
+.mark4 {
+  width: 300px;
+  justify-content: center;
+}
+
+.textoerror {
+  padding: 5px;
+  font-size: 25px;
+  font-family: Verdana;
+  font-weight: 500;
+}
+
+.error {
+  text-align: center;
+  padding: 5px;
+  font-size: 20px;
+  font-family: Verdana;
+  font-weight: 500;
+}
+
+/*:::::Formulario*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container-form {
+  padding: 50px;
+  display: flex;
+  gap: 15px;
+}
+.container-form .btn-enviar {
+  padding: 15px;
+  font-size: 16px;
+  border: none;
+  outline: 0px;
+  background: rgb(190, 240, 11);
+  color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 300ms ease;
+}
+.container-form .btn-enviar :hover {
+  background: #e39403;
+}
+.container-form form textarea {
+  max-width: 530px;
+  min-width: 530px;
+  min-height: 140px;
+  max-height: 150px;
+}
+.container-form form .campo, .container-form textarea {
+  width: 200px;
+  padding: 15px 10px;
+  font-size: 16px;
+  border: 1px solid #fff;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  outline: 0px;
+}
+.container-form h2 {
+  margin-bottom: 15px;
+  font-size: 30px;
+}
+.container-form p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+.container-form form {
+  display: flex;
+  flex-direction: column;
+}
+.container-form a {
+  font-size: 17px;
+  display: inline-block;
+  text-decoration: none;
+  width: 100%;
+  margin-bottom: 15px;
+  color: #000000;
+  font-weight: 700;
+}
+.container-form a i {
+  color: rgb(190, 240, 11);
+  margin-right: 10px;
+  margin-bottom: 70px;
+}
+
+/*:::::conociendo*/
+.conociendo {
+  text-align: center;
+}
+
 .titulo .texto {
   width: 300px;
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
-
 .titulo .imagen {
   display: flex;
   flex-direction: column;
   align-self: end;
 }
 
+.mark1 {
+  width: 300px;
+  transform: scaleX(-1);
+}
+
+.texto-conociendo {
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.reunion {
+  display: flex;
+  padding-top: 5%;
+}
+
+.reunion-general {
+  width: 400px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+
+.reuniontext {
+  display: flex;
+  padding: 110px 0px;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+/*:::::Formacion*/
+.form {
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+.form p {
+  padding: 5px;
+  font-size: 25px;
+}
+
+.formaciontext {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.formacion {
+  display: flex;
+  gap: 30px;
+}
+
+.clasesimg {
+  padding: 50px;
+}
+
+.clases {
+  width: 400px;
+  border-radius: 5%;
+}
+
+.clasestext {
+  display: flex;
+  padding: 80px 50px;
+  justify-content: center;
+  font-size: 22px;
+}
+
+.users {
+  display: flex;
+  padding-top: 5%;
+}
+
+.usuario {
+  width: 200px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  border-radius: 5%;
+}
+
+.usertext {
+  display: flex;
+  padding: 110px 0px;
+  justify-content: center;
+  margin-top: 5px;
+  font-weight: 500;
+}
+
+.opinion {
+  text-align: center;
+}
+
+/*:::::servicios*/
+.mark3 {
+  width: 300px;
+  justify-content: center;
+  animation: bounce;
+  animation-duration: 2s;
+}
+
+.textoservicio p {
+  padding: 5px;
+  font-size: 25px;
+}
+
+.servicios3 {
+  text-align: center;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.servicios {
+  display: flex;
+  justify-content: center;
+  margin: 0 50px;
+}
+
+.engine1 {
+  width: 400px;
+  display: flex;
+  padding: 50px;
+}
+
+.engine2 {
+  width: 400px;
+  display: flex;
+  padding: 50px;
+}
+
 /*:::::header*/
 nav {
   padding: 0;
+  font-weight: 600;
+  padding: 10px;
+}
+nav a {
+  text-decoration: none;
+  color: #000000;
 }
 
 .navbar-expand-lg {
   padding: 0;
 }
-
 .navbar-expand-lg .navbar-collapse {
   padding: 0;
   justify-content: end;
@@ -45,16 +293,6 @@ nav {
 .logo img {
   height: 50px;
   margin-right: 10px;
-}
-
-a {
-  text-decoration: none;
-  color: #000000;
-}
-
-nav a {
-  font-weight: 600;
-  padding: 10px;
 }
 
 .container-fluid {
@@ -88,7 +326,6 @@ li {
   background: rgb(40, 136, 99);
   background: linear-gradient(90deg, rgb(40, 136, 99) 0%, rgb(11, 194, 123) 35%, rgb(220, 230, 0) 100%);
 }
-
 .pie-pagina .grupo-1 {
   width: 100%;
   max-width: 1200px;
@@ -98,30 +335,6 @@ li {
   grid-gap: 50px;
   padding: 45px 0px;
 }
-
-.pie-pagina .grupo-1 .box figure {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.pie-pagina .grupo-1 .box figure img {
-  width: 250px;
-}
-
-.pie-pagina .grupo-1 .box h2 {
-  color: white;
-  margin-bottom: 25px;
-  font-size: 20px;
-}
-
-.pie-pagina .grupo-1 .box p {
-  color: #efefef;
-  margin-bottom: 10px;
-}
-
 .pie-pagina .grupo-1 .red-social a {
   display: inline-block;
   text-decoration: none;
@@ -134,9 +347,27 @@ li {
   text-align: center;
   transition: all 300ms ease;
 }
-
-.pie-pagina .grupo-1 .red-social a:hover {
+.pie-pagina .grupo-1 .red-social a :hover {
   color: aqua;
+}
+.pie-pagina .grupo-1 .box p {
+  color: #fff;
+  margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .box h2 {
+  color: #fff;
+  margin-bottom: 25px;
+  font-size: 22px;
+}
+.pie-pagina .grupo-1 .box figure {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img {
+  width: 250px;
 }
 
 .pie-pagina .grupo-2 {
@@ -145,235 +376,8 @@ li {
   text-align: center;
   color: #fff;
 }
-
 .pie-pagina .grupo-2 small {
-  font-size: 15px;
-}
-
-/*:::::Formulario*/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
-}
-
-.container-form {
-  padding: 50px;
-  display: flex;
-  gap: 15px;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-}
-
-.container-form h2 {
-  margin-bottom: 15px;
-  font-size: 35px;
-}
-
-.container-form p {
-  font-size: 17px;
-  line-height: 1.6;
-  margin-bottom: 30px;
-}
-
-.container-form a {
-  font-size: 17px;
-  display: inline-block;
-  text-decoration: none;
-  width: 100%;
-  margin-bottom: 15px;
-  color: black;
-  font-weight: 700;
-}
-
-.container-form a i {
-  color: rgb(190, 240, 11);
-  margin-right: 10px;
-  margin-bottom: 70px;
-}
-
-.container-form form .campo, textarea {
-  width: 100%;
-  padding: 15px 10px;
   font-size: 16px;
-  border: 1px solid #dbdbdb;
-  margin-bottom: 20px;
-  border-radius: 3px;
-  outline: 0px;
-}
-
-.container-form form textarea {
-  max-width: 530px;
-  min-width: 530px;
-  min-height: 140px;
-  max-height: 150px;
-}
-
-.container-form .btn-enviar {
-  padding: 15px;
-  font-size: 16px;
-  border: none;
-  outline: 0px;
-  background: rgb(190, 240, 11);
-  color: white;
-  border-radius: 3px;
-  cursor: pointer;
-  transition: all 300ms ease;
-}
-
-.container-form .btn-enviar:hover {
-  background: #e39403;
-}
-
-/*:::::conociendo*/
-.conociendo {
-  text-align: center;
-}
-
-.mark1 {
-  width: 300px;
-  transform: scaleX(-1);
-}
-
-.titulo .texto {
-  width: 300px;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-.texto-conociendo {
-  font-size: 22px;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-.titulo .imagen {
-  display: flex;
-  flex-direction: column;
-  align-self: end;
-}
-
-.reunion {
-  display: flex;
-  padding-top: 5%;
-}
-
-.reunion-general {
-  width: 400px;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-bottom: 50px;
-}
-
-.reuniontext {
-  display: flex;
-  padding: 110px 0px;
-  justify-content: center;
-  margin-top: 5px;
-}
-
-/*:::::servicios*/
-.mark3 {
-  width: 300px;
-  justify-content: center;
-  animation: bounce;
-  animation-duration: 2s;
-}
-
-.textoservicio p {
-  padding: 5px;
-  font-size: 25px;
-}
-
-.servicios3 {
-  text-align: center;
-  padding: 5px;
-  font-size: 20px;
-}
-
-.engine1 {
-  width: 400px;
-  display: flex;
-  padding: 50px;
-}
-
-.engine2 {
-  width: 400px;
-  display: flex;
-  padding: 50px;
-}
-
-.servicios {
-  display: flex;
-  justify-content: center;
-  margin: 0 50px;
-}
-
-/*:::::Formacion*/
-.form {
-  margin-top: 15px;
-  margin-bottom: 50px;
-}
-
-.form p {
-  padding: 5px;
-  font-size: 25px;
-}
-
-.formaciontext {
-  text-align: center;
-  margin-bottom: 25px;
-}
-
-.formacion {
-  display: flex;
-  gap: 30px;
-}
-
-.clasesimg {
-  padding: 50px;
-}
-
-.clases {
-  width: 400px;
-  border-radius: 5%;
-}
-
-.clasestext {
-  display: flex;
-  padding: 80px 50px;
-  justify-content: center;
-  font-size: 25px;
-}
-
-.users {
-  display: flex;
-  padding-top: 5%;
-}
-
-.usuario {
-  width: 200px;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-bottom: 50px;
-  border-radius: 5%;
-}
-
-.usertext {
-  display: flex;
-  padding: 110px 0px;
-  justify-content: center;
-  margin-top: 5px;
-}
-
-.opinion {
-  text-align: center;
 }
 
 /* Medidas mobile */

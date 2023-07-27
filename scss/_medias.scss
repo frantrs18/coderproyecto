@@ -1,0 +1,83 @@
+/* Medidas mobile */
+
+@media screen and (max-width: 769px) {
+    nav .container-fluid {
+        display: block !important; 
+        padding: 0;
+
+      }
+      nav .navbar-collapse {
+        padding: 0;
+      }
+    .pie-pagina .grupo-1 {
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 30px;
+      padding: 35px 10px;
+    }
+    .pie-pagina .grupo-1 .box {
+        margin: 0;
+        display: flex; 
+       flex-direction: column;
+       gap: 10px;
+
+    }
+    .pie-pagina .grupo-1 .box p {
+        font-size: 10px;
+    }
+
+    .titulo {
+      flex-direction: column;
+      padding: 50px 0px;
+      align-items: center;
+      margin-top: 5px;
+    }
+    .titulo .imagen {
+        align-self: center;
+    }
+    .form{ padding: 0px 10px;}
+    
+    .formacion { flex-direction: column; 
+        padding: 0px 10px; 
+        gap: 20px;
+        .clasestext{ padding: 0;}
+        img{margin: 0;
+            width: 250px;}
+        .clasesimg {
+            display:flex;
+            align-self: center;
+        }}
+
+    .container-form{flex-direction: column;
+        textarea {
+            max-width: 100%;
+            min-width: auto;
+          }}
+    
+    .servicios .engine1 {
+        display: flex;
+        flex-direction: column;
+        align-self: end; 
+    }
+    .textoservicio p {padding: 5px;
+        font-size: $textMD;}
+    
+    .engine1{width: 150px;
+            display: flex;
+            padding: 20px
+                ;}
+    .engine2{width: 150px;
+            display: flex ;
+            padding: 20px;}
+    
+    .reunion { flex-direction: column; 
+        padding: 15px 15px; 
+        gap: 10px;
+        .reuniontext  {padding: 5px;
+            font-size: $textMD;
+        .reunion-general {margin: 0;
+            width: 350px;}}
+    .more {padding: 5px;
+        font-size: $textMD;}
+    .texto {padding: 5px;
+        font-size: $textMD;}
+          } }

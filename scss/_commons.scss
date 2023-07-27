@@ -1,0 +1,209 @@
+/*:::::index-body*/
+.titulo {
+    display: flex;
+    padding: 50px 0px;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 5px;
+    .imagen {
+        display: flex;
+        flex-direction: column;
+        align-self: end;}
+    .texto {
+        width: $widthLG;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+      }
+  }
+  
+  .texto-index {
+    font-size: $textMD;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+//h1 y a//
+
+h1 {font-family: $fuentetitulo;
+   font-weight:$textBold;
+   color: $black;}
+
+a {color:black}
+
+//error404//
+
+.mark4 {width: 300px;
+    justify-content: center;}
+.textoerror {padding: 5px;
+    font-size: 25px;
+    font-family: $fuentenormal;
+    font-weight: $textBold;}
+.error {text-align: center;
+    padding: 5px;
+    font-size: 20px;
+    font-family: $fuentenormal;
+    font-weight: $textBold;
+}
+
+/*:::::Formulario*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $mainfont
+}
+
+.container-form{
+    padding: 50px;
+    display: flex;
+    gap: 15px;
+    .btn-enviar{
+        padding: 15px;
+        font-size: $textSM;
+        border: none;
+        outline: 0px;
+        background: $colorsecundario;
+        color: $white;
+        border-radius: 3px;
+        cursor: pointer;
+        transition: all 300ms ease;
+        :hover{
+            background: #e39403;
+        }
+    }
+    form textarea{
+        max-width: 530px;
+        min-width: 530px;
+        min-height: 140px;
+        max-height: 150px;}
+    form .campo, textarea{
+        width: $widthMD;
+        padding: 15px 10px;
+        font-size: $textSM;
+        border: 1px solid $white;
+        margin-bottom: 20px;
+        border-radius: 3px;
+        outline: 0px;
+    }
+    h2{
+        margin-bottom: 15px;
+        font-size: $textLG;
+    }
+    p{
+        font-size: $textSM;
+        line-height: 1.6;
+        margin-bottom: 30px;
+}
+form {
+    display: flex;
+    flex-direction: column;}
+    a{
+        font-size: 17px;
+        display: inline-block;
+        text-decoration: none;
+        width: $widthSM;
+        margin-bottom: 15px;
+        color: $black;
+        font-weight: 700;
+        i{
+            color: $colorsecundario;
+            margin-right: 10px;
+            margin-bottom: 70px;
+        }}
+
+}
+/*:::::conociendo*/
+
+.conociendo {text-align: center;}
+
+.titulo {.texto {
+    width: $widthLG;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  } 
+  .imagen {
+    display: flex;
+    flex-direction: column;
+    align-self: end;
+  }}
+  .mark1 {
+    width:$widthLG;
+    transform: scaleX(-1);    
+  }
+  .texto-conociendo {font-size: $textMD;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;}
+  .reunion {display: flex;
+             padding-top: 5%;
+             }
+  .reunion-general { width: 400px; 
+                     margin-left: 50px; 
+                     margin-right: 50px;
+                     margin-bottom: 50px;
+                    }
+   .reuniontext {display: flex;
+    padding: 110px 0px;
+    justify-content: center;
+    margin-top: 5px;}
+
+    /*:::::Formacion*/
+    .form {margin-top: 15px;
+            margin-bottom: 50px;
+         p{ padding: 5px;
+      font-size: 25px;}}
+    .formaciontext {text-align: center; margin-bottom: 25px;}
+    .formacion {display: flex;
+            gap: 30px;
+            }
+    .clasesimg {padding: 50px;}
+    .clases { width: 400px; 
+                   border-radius: 5%;}
+    .clasestext {display: flex;
+            padding: 80px 50px;
+            justify-content: center;
+        font-size: $textMD;}
+    .users {display: flex;
+        padding-top: 5%;}   
+    .usuario {width: $widthMD; 
+        margin-left: 50px; 
+        margin-right: 50px;
+        margin-bottom: 50px;
+       border-radius: 5%;}   
+    .usertext {display: flex;
+    padding: 110px 0px;
+    justify-content: center;
+    margin-top: 5px;
+    font-weight: $textBold}
+    .opinion {text-align: center;}
+    
+    /*:::::servicios*/
+
+.mark3 {width: $widthLG;
+        justify-content: center;
+        animation: bounce; 
+        animation-duration: 2s; 
+    }
+
+.textoservicio p {padding: 5px;
+            font-size: $textMD;}
+
+.servicios3{text-align: center;
+           padding: 5px;
+           font-size: $textMD;}
+
+.servicios {display: flex;
+        justify-content: center;
+         margin: 0 50px;}
+.engine1 {width: 400px;
+            display: flex;
+            padding: 50px;
+           }
+.engine2 {width: 400px;
+            display: flex;
+            padding: 50px;
+           }

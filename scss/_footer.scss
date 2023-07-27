@@ -1,0 +1,62 @@
+/*:::::Pie de Pagina*/
+.pie-pagina {
+    width: $widthSM;
+    background: rgb(40, 136, 99);
+    background: linear-gradient(90deg, rgb(40, 136, 99) 0%, rgb(11, 194, 123) 35%, rgb(220, 230, 0) 100%);
+    .grupo-1 {
+        width: $widthSM;
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 50px;
+        padding: 45px 0px;
+        .red-social a {
+            display: inline-block;
+            text-decoration: none;
+            width: 45px;
+            height: 45px;
+            line-height: 45px;
+            color: $white;
+            margin-right: 10px;
+            background-color: #0d2033;
+            text-align: center;
+            transition: all 300ms ease;
+            :hover {
+                color: aqua; }
+          }
+          
+        .box{
+            p {
+                color: $white;
+                margin-bottom: 10px;
+              }
+        h2 {
+            color: $white;
+            margin-bottom: 25px;
+            font-size: $textMD
+          }
+        figure {
+            width: $widthSM;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+                width: 250px;
+              }
+       }
+      
+    }
+}
+} 
+  .pie-pagina .grupo-2 {
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: $white;
+    small {
+        font-size: $textSM;
+      }
+  }
+  

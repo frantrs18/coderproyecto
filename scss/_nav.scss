@@ -1,0 +1,33 @@
+/*:::::header*/
+nav {padding: 0;
+    font-weight: 600;
+    padding: 10px;
+    a{text-decoration: none;
+        color: $black}}
+
+.navbar-expand-lg {padding: 0;
+    .navbar-collapse {
+        padding: 0;
+        justify-content: end;
+      }
+}
+.logo img{height: 50px ; 
+              margin-right: 10px }
+    
+
+.container-fluid { background: $maincolor ;
+    background: linear-gradient(90deg, rgba(220,230,0,1) 0%, rgba(11,194,123,1) 35%, rgba(40,136,99,1) 100%);
+    gap: 200px;
+    padding: 20px 0;
+}
+.collapse{ padding-left: 550px ;
+           font-weight: 350px ; }
+li { margin-right: 20px;
+     font-size: medium;
+    font-style: oblique}
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Open Sans', sans-serif;
+    }
