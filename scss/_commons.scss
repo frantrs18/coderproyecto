@@ -16,14 +16,14 @@
         gap: 15px;
       }
   }
-  
-  .texto-index {
-    font-size: $textMD;
+  .texto-index { 
+    font-size: $textLG;
     display: flex;
+    color:$black;
     flex-direction: column;
-    gap: 15px;
+    gap: 15px; 
   }
-  
+
 //h1 y a//
 
 h1 {font-family: $fuentetitulo;
@@ -93,7 +93,7 @@ a {color:black}
         font-size: $textLG;
     }
     p{
-        font-size: $textSM;
+        font-size: $textMD;
         line-height: 1.6;
         margin-bottom: 30px;
 }
