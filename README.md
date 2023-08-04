@@ -1,7 +1,7 @@
 # Marketing Con Ger
 Francisco Torres Comision 55445
 
-## introduccion al proyecto Marketing digital con ger
+## Introduccion al proyecto Marketing digital con ger
 La idea nacio de una charla con mi amigo ger que se dedica al marketing digital.
 Acordamos que cuando tenga todos los conocimientos necesarios para realizar una pagina para 
 expandirse por las redes juntos hariamos un proyecto de marketing digital para ayudar a las 
